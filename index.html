@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Zoe ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- LOGIN PAGE -->
+    <div class="login-page" id="loginPage">
+        <!-- Glass Login Box -->
+        <div class="glass-container">
+            <h1 class="login-title">For Zoe</h1>
+            <p class="login-subtitle">A Love Letter Awaits</p>
+            
+            <div class="input-wrapper">
+                <label>Your Name</label>
+                <input type="text" id="yourName" placeholder="Enter your name" autocomplete="off">
+            </div>
+            
+            <div class="input-wrapper">
+                <label>His Name</label>
+                <input type="text" id="hisName" placeholder="Enter his name" autocomplete="off">
+            </div>
+            
+            <button class="login-button" onclick="login()">
+                Unlock Your Message ❤️
+            </button>
+            
+            <div class="error-text" id="errorMsg">
+                These names don't match. Try again ❤️
+            </div>
+        </div>
+
+        <!-- Floating hearts and sparkles -->
+        <div id="floatingElements"></div>
+    </div>
+
+    <!-- MAIN SCENE -->
+    <div class="main-scene" id="mainScene">
+        <div class="catch-instruction">✨ Click the scroll to open your letter ✨</div>
+        
+        <!-- Flying Scroll Letter -->
+        <div class="scroll-letter" id="scrollLetter" onclick="openLetter()">
+            <div class="scroll-container">
+                <div class="scroll-roll-closed"></div>
+            </div>
+        </div>
+
+        <div id="sceneHearts"></div>
+    </div>
+
+    <!-- LETTER OVERLAY -->
+    <div class="letter-overlay" id="letterOverlay">
+        <button class="close-button" onclick="closeLetter()">×</button>
+        
+        <div class="letter-container">
+            <div class="letter-content">
+                <!-- Decorative scroll top -->
+                <div class="scroll-top"></div>
+                
+                <!-- Top wax seal -->
+                <div class="wax-seal top-seal">
+                    <div class="seal-heart">❤️</div>
+                </div>
+                
+                <!-- Ornamental corners -->
+                <div class="corner-ornament top-left"></div>
+                <div class="corner-ornament top-right"></div>
+                <div class="corner-ornament bottom-left"></div>
+                <div class="corner-ornament bottom-right"></div>
+                
+                <!-- Letter text content -->
+                <div class="letter-text">
+                    <div class="letter-header">
+                        <h2>To My First Lady</h2>
+                        <p class="letter-date">Valentine's Day, 2025</p>
+                    </div>
+                    
+                    <div class="letter-body">
+                        <p class="greeting">My Beloved Amanda,</p>
+                        
+                        <div class="divider">❦</div>
+      <div class="letter-content">
+    
+    <p>Sometimes words feel too small for everything I carry in my heart for you. Through the noise, the arguments, the exhaustion, and the misunderstandings… my love for you has never disappeared. If anything, it has been fighting quietly, waiting for us to find our way back to each other.</p>
+    
+    <p>Zoe, you are the woman who gave me the greatest gifts of my life — our children. When I look at them, I see pieces of us, pieces of love that are bigger than any disagreement. Our little family is the most precious thing I have, and I don’t want a single day to pass without you knowing that.</p>
+
+    <div class="divider">✿</div>
+    
+    <p>These past months have not been easy. Losing my mom has shaken me in ways I am still trying to understand. Some days I feel overwhelmed and not like myself. If my pain has turned into distance or frustration, I am truly sorry. I am learning how to grieve without pushing away the people I love most.</p>
+    
+    <p>I don’t want tension in our home. I don’t want our days to be filled with arguments. I want peace. I want laughter. I want our children — our precious kids and our newborn — to grow up seeing love, respect, and unity between their parents. I want us to be a team again.</p>
+
+    <div class="divider">❦</div>
+    
+    <p>I love you. Not only when things are easy, but especially when they are hard. I love the mother you are, your strength, and the heart that still stands beside mine. I choose you. I choose our family. I choose forever — even when it requires patience, effort, and understanding.</p>
+    
+    <p>I am ready to support you more, to listen better, to speak with kindness, and to build something stronger than our struggles. Let’s protect what we created together. Let’s fight for each other, not against each other.</p>
+
+    <p class="closing-line">My heart belongs to you and our children — today, tomorrow, and always.</p>
+
+</div>
+
+<div class="letter-signature">
+    Forever yours,<br>
+    Nouri ❤️
+</div>
+                    </div>
+                </div>
+                
+                <!-- Bottom wax seal -->
+                <div class="wax-seal bottom-seal">
+                    <div class="seal-heart">❤️</div>
+                </div>
+                
+                <!-- Decorative scroll bottom -->
+                <div class="scroll-bottom"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<footer> Created by love </footer>
